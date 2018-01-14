@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/boxca/Google Drive/Projects/red-fuzz/kicad/red-fuzz.sch</source>
+    <date>1/13/2018 9:47:11 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Red Fuzz </title>
+        <company>Cal Poly AES</company>
+        <rev>A</rev>
+        <date>2018-01-12</date>
+        <source>red-fuzz.sch</source>
+        <comment number="1" value="Original Design by Robin Tomtlund"/>
+        <comment number="2" value="This based on source material from generalguitargadgets.com"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>9V</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm</footprint>
+      <libsource lib="device" part="Battery"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59978F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>2.1mm Center Neg Insulated</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="Barrel_Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5997EE</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_3PDT</value>
+      <footprint>guitar-projects:3PDT_Solder_Lugs</footprint>
+      <libsource lib="guitar-pedals" part="SW_3PDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5999E3</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A599A40</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.001u</value>
+      <footprint>Capacitors_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A599AA2</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.047u</value>
+      <footprint>Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A599ADF</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>470k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A599BAF</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>470k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A599C5F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A214</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.22u</value>
+      <footprint>Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A380</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A52C</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diodes_THT:D_DO-15_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A578</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A5BE</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>1M Log</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A62A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A8D7</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>100k Lin</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59A9B1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k8</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59AB19</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.0033u</value>
+      <footprint>Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59AC9A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1u</value>
+      <footprint>Capacitors_THT:C_Disc_D7.5mm_W4.4mm_P5.00mm</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59AE25</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1M</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59AF79</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59B236</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P2.50mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59B610</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>100k Log</value>
+      <footprint>Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal</footprint>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59B7DC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100u</value>
+      <footprint>Capacitors_THT:CP_Radial_D10.0mm_P3.50mm</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59D938</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59E188</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>LEDs:LED_D5.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59E207</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPDT</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
+      <libsource lib="switches" part="SW_SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59EDEC</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59F415</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED</value>
+      <footprint>LEDs:LED_D3.0mm</footprint>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A59F4A5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1n5818</value>
+      <footprint>Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="device" part="D_Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5A333B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>j201</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Inline_Wide</footprint>
+      <libsource lib="device" part="Q_NJFET_DSG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5A86BE</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>NE5532</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm_Socket_LongPads</footprint>
+      <libsource lib="linear" part="NE5532"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5AB169</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>TEST_1P</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ADB3D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TEST_1P</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ADC2E</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>TEST_1P</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="TEST_1P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5ADCC5</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Input Stereo</value>
+      <footprint>Connectors:NMJ6HCD2</footprint>
+      <libsource lib="conn" part="Audio-Jack-3_3Switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5B0C73</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Output Mono</value>
+      <footprint>Connectors:NMJ6HCD2</footprint>
+      <libsource lib="conn" part="Audio-Jack-3_3Switches"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A5B29CE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="Audio-Jack-3_3Switches">
+      <description>3-pin (audio) jack receptable (stereo/TRS connector) with 3 switching contacts</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Audio-Jack-3_3Switches</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Battery">
+      <description>Battery (multiple cells)</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="LM2904">
+      <aliases>
+        <alias>LM358</alias>
+        <alias>AD8620</alias>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>TL062</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>SA5532</alias>
+        <alias>RC4558</alias>
+        <alias>RC4560</alias>
+        <alias>RC4580</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TSV912IDT</alias>
+        <alias>TSV912IST</alias>
+        <alias>TLC272</alias>
+        <alias>TLC277</alias>
+        <alias>MCP602</alias>
+        <alias>OPA2134</alias>
+        <alias>OPA2340</alias>
+        <alias>OPA2376xxD</alias>
+        <alias>OPA2376xxDGK</alias>
+        <alias>MC33078</alias>
+        <alias>MC33178</alias>
+        <alias>LM4562</alias>
+        <alias>OP249</alias>
+        <alias>OP275</alias>
+        <alias>ADA4075-2</alias>
+        <alias>MCP6002-xP</alias>
+        <alias>MCP6002-xSN</alias>
+        <alias>MCP6002-xMS</alias>
+        <alias>LM7332</alias>
+        <alias>OPA2333xxD</alias>
+        <alias>OPA2333xxDGK</alias>
+        <alias>LMC6482</alias>
+        <alias>LT1492</alias>
+        <alias>LTC6081xMS8</alias>
+        <alias>LM6172</alias>
+        <alias>MCP6L92</alias>
+        <alias>NJM2043</alias>
+        <alias>NJM2114</alias>
+        <alias>NJM4556A</alias>
+        <alias>NJM4558</alias>
+        <alias>NJM4559</alias>
+        <alias>NJM4560</alias>
+        <alias>NJM4580</alias>
+        <alias>NJM5532</alias>
+        <alias>ADA4807-2ARM</alias>
+        <alias>OPA2691</alias>
+      </aliases>
+      <description>Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm358.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*Pitch0.65mm*</fp>
+        <fp>MSOP*3x3mm*Pitch0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*Pitch0.635mm*</fp>
+        <fp>LFCSP*2x2mm*Pitch0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*Pitch1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2904</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentiometer</description>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NJFET_DSG">
+      <description>Transistor N-JFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_DSG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="guitar-pedals" part="SW_3PDT">
+      <description>Switch, three pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_3PDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+        <pin num="7" name="A" type="passive"/>
+        <pin num="8" name="B" type="passive"/>
+        <pin num="9" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_SPDT">
+      <description>Switch, single pole double throw</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPDT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="TEST_1P">
+      <description>point</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TEST_1P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="guitar-pedals">
+      <uri>C:\Users\boxca\Google Drive\Projects\kicad-libs-custom\guitar-pedals.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>C:\Program Files\KiCad\share\kicad\library\switches.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="2" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="6"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D2-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(RV3-Pad2)">
+      <node ref="RV3" pin="2"/>
+      <node ref="SW1" pin="7"/>
+    </net>
+    <net code="6" name="Net-(C8-Pad2)">
+      <node ref="RV3" pin="1"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(C6-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="10" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="SW2" pin="3"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad1)">
+      <node ref="SW1" pin="8"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J6" pin="3"/>
+      <node ref="J6" pin="5"/>
+      <node ref="J6" pin="6"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R9" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J6-Pad4)">
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="14" name="+9V">
+      <node ref="Q1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J4-Pad1)">
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="16" name="Net-(R7-Pad2)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="18" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="19" name="Net-(C5-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="SW1" pin="9"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="21" name="Net-(BT1-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="23" name="Net-(R6-Pad1)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="24" name="Net-(D3-Pad1)">
+      <node ref="SW2" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C4-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="27" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="D5" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(C2-Pad1)">
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(BT1-Pad1)">
+      <node ref="J1" pin="3"/>
+      <node ref="BT1" pin="1"/>
+    </net>
+  </nets>
+</export>
