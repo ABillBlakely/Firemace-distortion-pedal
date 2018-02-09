@@ -41,12 +41,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Red Fuzz "
+Title "Firemace"
 Date "2018-01-12"
 Rev "A"
 Comp "Cal Poly AES"
-Comment1 "Original Design by Robin Tomtlund"
-Comment2 "This based on source material from generalguitargadgets.com"
+Comment1 "This based on \"Red Fuzz\" from generalguitargadgets.com"
+Comment2 "Original Design \"Red Fuzz\"by Robin Tomtlund"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -232,7 +232,7 @@ U 1 1 5A59A62A
 P 5450 4800
 F 0 "RV1" V 5275 4800 50  0000 C CNN
 F 1 "1M Log" V 5350 4800 50  0000 C CNN
-F 2 "guitar-projects:pot_16mm_long_lead" H 5450 4800 50  0001 C CNN
+F 2 "feetprints:pot_16mm_long_lead" H 5450 4800 50  0001 C CNN
 F 3 "" H 5450 4800 50  0001 C CNN
 	1    5450 4800
 	0    -1   1    0   
@@ -254,7 +254,7 @@ U 1 1 5A59A9B1
 P 6650 4150
 F 0 "RV2" V 6475 4150 50  0000 C CNN
 F 1 "100k Lin" V 6550 4150 50  0000 C CNN
-F 2 "guitar-projects:pot_16mm_long_lead" H 6650 4150 50  0001 C CNN
+F 2 "feetprints:pot_16mm_long_lead" H 6650 4150 50  0001 C CNN
 F 3 "" H 6650 4150 50  0001 C CNN
 	1    6650 4150
 	0    -1   1    0   
@@ -295,12 +295,12 @@ $EndComp
 $Comp
 L R R8
 U 1 1 5A59AF79
-P 8100 4400
-F 0 "R8" V 8180 4400 50  0000 C CNN
-F 1 "1M" V 8100 4400 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8030 4400 50  0001 C CNN
-F 3 "" H 8100 4400 50  0001 C CNN
-	1    8100 4400
+P 8100 4500
+F 0 "R8" V 8180 4500 50  0000 C CNN
+F 1 "1M" V 8100 4500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8030 4500 50  0001 C CNN
+F 3 "" H 8100 4500 50  0001 C CNN
+	1    8100 4500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -331,7 +331,7 @@ U 1 1 5A59B610
 P 8900 4450
 F 0 "C8" H 8925 4550 50  0000 L CNN
 F 1 "10u" H 8925 4350 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P2.50mm" H 8900 4450 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 8900 4450 50  0001 C CNN
 F 3 "" H 8900 4450 50  0001 C CNN
 	1    8900 4450
 	0    -1   -1   0   
@@ -342,7 +342,7 @@ U 1 1 5A59B7DC
 P 9300 4700
 F 0 "RV3" V 9125 4700 50  0000 C CNN
 F 1 "100k Log" V 9200 4700 50  0000 C CNN
-F 2 "guitar-projects:pot_16mm_long_lead" H 9300 4700 50  0001 C CNN
+F 2 "feetprints:pot_16mm_long_lead" H 9300 4700 50  0001 C CNN
 F 3 "" H 9300 4700 50  0001 C CNN
 	1    9300 4700
 	1    0    0    1   
@@ -386,7 +386,7 @@ U 1 1 5A59D938
 P 2700 2950
 F 0 "C1" H 2725 3050 50  0000 L CNN
 F 1 "100u" H 2725 2850 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P3.50mm" H 2700 2950 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 2700 2950 50  0001 C CNN
 F 3 "" H 2700 2950 50  0001 C CNN
 	1    2700 2950
 	1    0    0    -1  
@@ -514,13 +514,13 @@ F 3 "" H 8400 4150 50  0001 C CNN
 $EndComp
 $Comp
 L NE5532 U1
-U 1 1 5A5AB169
+U 2 1 5A5AB169
 P 4950 4150
 F 0 "U1" H 4950 4350 50  0000 L CNN
 F 1 "NE5532" H 4950 3950 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4950 4150 50  0001 C CNN
 F 3 "" H 4950 4150 50  0001 C CNN
-	1    4950 4150
+	2    4950 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -578,8 +578,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 5450 5850 5450
 Wire Wire Line
-	5600 4800 5950 4800
-Wire Wire Line
 	5450 4950 5450 5000
 Wire Wire Line
 	5450 5000 5650 5000
@@ -605,10 +603,10 @@ Connection ~ 7350 4150
 Wire Wire Line
 	7850 4150 8200 4150
 Wire Wire Line
-	8100 4150 8100 4250
+	8100 4150 8100 4350
 Connection ~ 8100 4150
 Wire Wire Line
-	8100 4950 8100 4550
+	8100 4950 8100 4650
 Wire Wire Line
 	8500 3800 8500 3950
 Wire Wire Line
@@ -746,13 +744,13 @@ Wire Wire Line
 	4850 3800 4850 3850
 $Comp
 L NE5532 U1
-U 2 1 5A5AD326
+U 1 1 5A5AD326
 P 7100 1750
 F 0 "U1" H 7100 1950 50  0000 L CNN
 F 1 "NE5532" H 7100 1550 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7100 1750 50  0001 C CNN
 F 3 "" H 7100 1750 50  0001 C CNN
-	2    7100 1750
+	1    7100 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -826,33 +824,17 @@ Wire Wire Line
 	6700 1650 6800 1650
 Wire Wire Line
 	6700 1650 6700 1550
-Text Notes 8900 5550 0    60   ~ 0
-Connect board ground to\nbody of volume pot here\nto ground the chassis.
 Wire Wire Line
 	9500 4900 9500 6350
 Wire Wire Line
 	9500 6350 2400 6350
-Connection ~ 9100 4950
-Wire Wire Line
-	9100 5050 9100 4950
-$Comp
-L GNDPWR #PWR014
-U 1 1 5A5AFAD8
-P 9100 5050
-F 0 "#PWR014" H 9100 4850 50  0001 C CNN
-F 1 "GNDPWR" H 9100 4920 50  0000 C CNN
-F 2 "" H 9100 5000 50  0001 C CNN
-F 3 "" H 9100 5000 50  0001 C CNN
-	1    9100 5050
-	1    0    0    -1  
-$EndComp
 $Comp
 L Audio-Jack-3_3Switches J2
 U 1 1 5A5B0C73
 P 1650 3950
 F 0 "J2" H 1600 4250 50  0000 C CNN
 F 1 "Input Stereo" H 1650 3550 50  0000 C CNN
-F 2 "Connectors:NMJ6HCD2" H 1900 4050 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 1900 4050 50  0001 C CNN
 F 3 "" H 1900 4050 50  0001 C CNN
 	1    1650 3950
 	1    0    0    -1  
@@ -866,10 +848,10 @@ Wire Wire Line
 Wire Wire Line
 	1950 3750 1950 4300
 $Comp
-L GND #PWR015
+L GND #PWR014
 U 1 1 5A5B15B6
 P 1950 4300
-F 0 "#PWR015" H 1950 4050 50  0001 C CNN
+F 0 "#PWR014" H 1950 4050 50  0001 C CNN
 F 1 "GND" H 1950 4150 50  0000 C CNN
 F 2 "" H 1950 4300 50  0001 C CNN
 F 3 "" H 1950 4300 50  0001 C CNN
@@ -880,9 +862,6 @@ Wire Wire Line
 	1950 4250 1850 4250
 Connection ~ 1950 4250
 Wire Wire Line
-	1850 4050 1950 4050
-Connection ~ 1950 4050
-Wire Wire Line
 	1850 3850 1950 3850
 Connection ~ 1950 3850
 $Comp
@@ -891,7 +870,7 @@ U 1 1 5A5B29CE
 P 10450 5000
 F 0 "J6" H 10400 5300 50  0000 C CNN
 F 1 "Output Mono" H 10450 4600 50  0000 C CNN
-F 2 "Connectors:NMJ6HCD2" H 10700 5100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 10700 5100 50  0001 C CNN
 F 3 "" H 10700 5100 50  0001 C CNN
 	1    10450 5000
 	-1   0    0    1   
@@ -911,10 +890,10 @@ Wire Wire Line
 	10250 5000 10150 5000
 Connection ~ 10150 5000
 $Comp
-L GND #PWR016
+L GND #PWR015
 U 1 1 5A5B303B
 P 10150 5300
-F 0 "#PWR016" H 10150 5050 50  0001 C CNN
+F 0 "#PWR015" H 10150 5050 50  0001 C CNN
 F 1 "GND" H 10150 5150 50  0000 C CNN
 F 2 "" H 10150 5300 50  0001 C CNN
 F 3 "" H 10150 5300 50  0001 C CNN
@@ -930,10 +909,10 @@ Text Notes 3850 3800 1    60   ~ 0
 Text Notes 6650 1200 0    60   ~ 0
 Additional opamp section \navailable for mods.
 $Comp
-L GND #PWR017
+L GND #PWR016
 U 1 1 5A5B36D4
 P 1950 3050
-F 0 "#PWR017" H 1950 2800 50  0001 C CNN
+F 0 "#PWR016" H 1950 2800 50  0001 C CNN
 F 1 "GND" H 1950 2900 50  0000 C CNN
 F 2 "" H 1950 3050 50  0001 C CNN
 F 3 "" H 1950 3050 50  0001 C CNN
@@ -944,8 +923,13 @@ Wire Wire Line
 	1950 3050 1950 2950
 Wire Wire Line
 	1950 2950 1850 2950
-Text Label 2000 2850 0    60   ~ 0
+Text Label 2250 3100 0    60   ~ 0
 Batt+
-Text Label 2000 3950 0    60   ~ 0
+Text Label 2250 3700 0    60   ~ 0
 Batt-
+Wire Wire Line
+	5600 4800 5950 4800
+Text Notes 3650 3200 1    60   ~ 0
+LED 1.8V drop
+NoConn ~ 1850 4050
 $EndSCHEMATC
